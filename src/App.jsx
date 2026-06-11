@@ -47,8 +47,8 @@ import {
 } from 'lucide-react'
 import './App.css'
 
-const schoolLogo = '/brand/school-logo.png'
-const platformLogo = '/brand/matelink-logo.png'
+const schoolLogo = `${import.meta.env.BASE_URL}brand/school-logo.png`
+const platformLogo = `${import.meta.env.BASE_URL}brand/matelink-logo.png`
 
 const pages = [
   { id: 'home', label: '校内认证', icon: Home },
